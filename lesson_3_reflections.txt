@@ -6,7 +6,9 @@ local?
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
-    Fill in your answer here
+   Unnecessary pulling can cause deleting my working result.
+   If there are some commits what I works, but it conflict with remote
+   repository, it cause unstable status.
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
