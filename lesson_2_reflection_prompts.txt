@@ -12,13 +12,38 @@ What value do you think it offers?
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+   Add related files to staging area, and leave unrelated files in working
+    directory.
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+    For example, making release version and developing source code at the
+    same time, it will helpful to keek history.
+
 How do the diagrams help you visualize the branch structure?
+
+    I can easily understand my projects and which works are processing.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+    The result of merging two branches is one united branch, so two different
+    modifications in two branches can use in master branch.
+    Because two different branches are merged in one branch, so we draw these
+    way as we do. But I think after merging branches, we just can draw
+    just one long line branch, because two branches become one branch.
+    In this case, each commit's parent can be confused.
+
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+
+    Automatic merging
+        Pros : Don't annoying, because git merge two branches and user doesn't
+               do anything.
+        Cons : If one branch's works don't need to new merged commit,
+               user delete after automatic merging.
+
+    Manual merging
+        Pros : User can select new merging commit's contents.
+        Cons : To difficult and may cause low productivity.
