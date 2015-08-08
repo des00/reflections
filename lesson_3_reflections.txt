@@ -23,12 +23,15 @@ use one instead of another?
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+    Local remote repository can keep up-to-date status, so I can compare
+    my local working directory and get result.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+    Sharing files are easy way to colaborate\
+    But merging into master (if there is master content on sharing files system)
+    or review, and discussion is really hard.    
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
