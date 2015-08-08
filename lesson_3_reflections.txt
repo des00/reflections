@@ -36,4 +36,7 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    If my commit is new feature or buggy, I think I want to review my code and
+    modify buggy code. If I push into master branch, master branch would don't
+    work at all. Preventing these accident, Using a separate branch and
+    review code can keep safe master branch.
